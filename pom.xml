@@ -11,9 +11,11 @@
 	<name>Spring Boot Maven Tests</name>
 	<properties>
 		<main.basedir>${basedir}/..</main.basedir>
+		<disable.checks>true</disable.checks>
 	</properties>
 	<modules>
 		<module>spring-boot-maven-tests-it</module>
 		<module>spring-boot-maven-tests-it-fork</module>
+		<module>spring-boot-maven-tests-misc</module>
 	</modules>
 </project>
